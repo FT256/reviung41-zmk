@@ -64,7 +64,7 @@
             bindings = <
 &kp BACKSPACE  &kp ASTERISK  &kp N1  &kp N2  &kp N3  &kp EQUAL          &kp GRAVE  &kp F1  &kp F2   &kp F3   &kp F4   &kp BACKSLASH
 &kp ENTER      &kp SLASH     &kp N4  &kp N5  &kp N6  &kp MINUS          &none      &kp F5  &kp F6   &kp F7   &kp F8   &none
-&kp LEFT_ALT   &kp ESC       &kp N7  &kp N8  &kp N9  &kp RIGHT          &none      &kp F9  &kp F10  &kp F11  &kp F12  &none
+&kp LEFT_ALT   &kp ESC       &kp N7  &kp N8  &kp N9  &kp N0             &none      &kp F9  &kp F10  &kp F11  &kp F12  &none
                                      &trans  &trans             &trans             &trans  &trans
             >;
         };
