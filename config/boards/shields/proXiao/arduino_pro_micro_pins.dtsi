@@ -7,6 +7,7 @@
     nc_gpio: dummy_gpio {
         compatible = "fixed-gpio"; /* dummy */
         status = "disabled";
+        #gpio-cells = <2>;
     };
 
     pro_micro: connector {
