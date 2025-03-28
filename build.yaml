@@ -21,13 +21,13 @@ include:
   - board: nice_nano_v2
     shield: reviung41
     artifact-name: reviung41_nicenano
-    
+
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: nicenano_settings_reset
-
+    
   - board: seeeduino_xiao_ble
-    shield: reviung41 proXiao
+    shield: proXiao
     artifact-name: reviung41_proxiao
 
   - board: seeeduino_xiao_ble
