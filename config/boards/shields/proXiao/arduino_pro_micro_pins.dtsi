@@ -51,14 +51,14 @@
 };
 
 pro_micro_d: &pro_micro {};
-pro_micro_i2c: fake_i2c {
+pro_micro_i2c: &nc_gpio {
     status = "disabled";
 };
 
-pro_micro_spi: fake_spi {
+pro_micro_spi: &nc_gpio {
     status = "disabled";
 };
 
-pro_micro_serial: fake_serial {
+pro_micro_serial: &nc_gpio {
     status = "disabled";
 };
