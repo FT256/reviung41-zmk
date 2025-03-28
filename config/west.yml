@@ -11,8 +11,5 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-proxiao
-      remote: FT256
-      revision: main
   self:
     path: config
