@@ -10,12 +10,6 @@
 	chosen {
         zmk,connector = &pro_micro;
 	};
-
-    nc_gpio: dummy_gpio {
-        compatible = "fixed-gpio"; /* dummy */
-        status = "disabled";
-    };
-
 };
 &xiao_spi { status = "disabled"; };
 &xiao_i2c { status = "disabled"; };

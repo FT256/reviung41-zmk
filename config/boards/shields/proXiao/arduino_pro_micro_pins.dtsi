@@ -4,15 +4,20 @@
  */
 
 / {
+    nc_gpio: dummy_gpio {
+        compatible = "fixed-gpio"; /* dummy */
+        status = "disabled";
+    };
+
     pro_micro: connector {
         compatible = "arduino-pro-micro";
         #gpio-cells = <2>;
         gpio-map-mask = <0xffffffff 0xffffffc0>;
         gpio-map-pass-thru = <0 0x3f>;
         gpio-map
-            = <0 0 &nc_gpio 0 0>          /* D0(NC) */
-            , <1 0 &nc_gpio 0 0>          /* D1(NC) */
-            , <2 0 &nc_gpio 0 0>          /* D2(NC) */
+            = <0 0 &nc_gpio 0 0>    /* D0(NC) */
+            , <1 0 &nc_gpio 0 0>    /* D1(NC) */
+            , <2 0 &nc_gpio 0 0>    /* D2(NC) */
             , <3 0 &xiao_d 8 0>     /* D3 */
             , <4 0 &xiao_d 7 0>     /* D4 */
             , <5 0 &xiao_d 8 0>     /* D5 */
