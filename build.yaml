@@ -27,7 +27,7 @@ include:
     artifact-name: nicenano_settings_reset
     
   - board: seeeduino_xiao_ble
-    shield: proXiao
+    shield: reviung41 proXiao
     artifact-name: reviung41_proxiao
 
   - board: seeeduino_xiao_ble
